@@ -5,7 +5,7 @@ This project leverages advanced AI and computer vision techniques to analyze foo
 
 
 ## Results
-![output_video](https://github.com/dilwolf/Football_Analysis_Project/assets/107533581/e16c5451-6f12-4e63-85e8-6a447661775f)
+![output_video]([https://github.com/dilwolf/Football_Analysis_Project/assets/107533581/e16c5451-6f12-4e63-85e8-6a447661775f](https://github.com/dilwolf/Football_Analysis_Project/raw/main/result_video.mp4))
 
 ## Introduction
 The aim of this project is to leverage advanced AI techniques to perform comprehensive analysis of football matches. By utilizing YOLO, a leading AI object detection model, we can accurately identify and track players, referees, and footballs within video footage. Our project focuses on enhancing the model's performance through meticulous training, ensuring high precision and reliability.
