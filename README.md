@@ -17,10 +17,10 @@ To accurately track player movements, we employ optical flow to assess camera mo
 By combining these techniques, we can determine each player's speed and the distance they cover during the match. This comprehensive analysis encompasses various concepts in machine learning and computer vision, addressing real-world problems and providing a valuable tool for both novice and experienced machine learning engineers.
 
 
-## Modules Used
+## Methods Used
 The following modules are used in this project:
-- **YOLO (You Only Look Once):** AI object detection model used to identify and track players, referees, and footballs in video footage.
-- **Kmeans Clustering:** Pixel segmentation and clustering technique used to detect and categorize t-shirt colors, facilitating team identification.
+- **YOLOv5:** Custom object detection model used to identify and track players, referees, and the ball in video footage.
+- **Kmeans Clustering:** Pixel segmentation and clustering technique used to detect and categorize t-shirt colors, classifying teams.
 - **Optical Flow:** Technique used to measure camera movement between frames, ensuring accurate player tracking despite dynamic camera angles.
 - **Perspective Transformation:** Technique used to represent scene depth and perspective, converting pixel measurements to real-world distances in meters.
 - **Player Speed and Distance Calculation:** Algorithms to determine the speed and distance covered by each player during the match, providing detailed performance metrics.
@@ -33,6 +33,3 @@ To run this project, you need to have the following requirements installed:
 - ultralytics
 - supervision
 - OpenCV
-- NumPy
-- Matplotlib
-- Pandas
